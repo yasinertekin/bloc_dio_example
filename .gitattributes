@@ -1,3 +1,4 @@
+# .gitattributes
 *.csharp linguist-detectable=false
 *.java linguist-detectable=false
 *.js linguist-detectable=false
@@ -6,3 +7,7 @@
 *.cpp linguist-detectable=false
 
 *.dart linguist-detectable=true
+
+# Exclude CMake files from language detection
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
